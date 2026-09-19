@@ -91,12 +91,28 @@ npm run build
 npm start
 ```
 
+### Python Ready-to-Paste Version (`app.py`)
+
+A standalone, ready-to-run Python version is included in `app.py` utilizing the official `google-genai` SDK and Streamlit:
+
+```bash
+# Install Python dependencies
+pip install google-genai streamlit pypdf
+
+# Export API key
+export GEMINI_API_KEY="your-gemini-api-key"
+
+# Run Streamlit app
+streamlit run app.py
+```
+
 ---
 
 ## 📁 Project Structure
 
 ```
 ├── .env.example                    # Environment variable template
+├── app.py                          # Ready-to-paste Python Streamlit/CLI companion
 ├── index.html                      # HTML entry point with fonts & metadata
 ├── metadata.json                   # App capabilities and permissions
 ├── package.json                    # Dependencies and build scripts
