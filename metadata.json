@@ -1,0 +1,6 @@
+{
+  "name": "AI Document Assistant",
+  "description": "Intelligent document analysis, contextual Q&A, executive summaries, risk auditing, and document comparison powered by Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
